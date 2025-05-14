@@ -1,0 +1,39 @@
+#ion_menu_icon {
+  background: url(icons/ion/icon.svg) 10px no-repeat;
+  background-size: 22px;
+}
+
+.ion_menu_icon {
+  background: url(icons/ion/icon.svg) 10px no-repeat;
+  background-size: 22px;
+  margin-top: 1px !important;
+}
+
+.ion_menu_icon + span {
+  color: #0d0e0e;
+  font-weight: bold;
+}
+
+.ion_primary_span {
+  display: inline-block;
+  margin: 2px 0;
+  padding: 2px 10px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  color: #000;
+}
+
+.ion_docblock_code {
+  display: block;
+  font-size: 0.95em;
+  font-family: monospace;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+
+
+.ns-hidden{
+  display: none;
+}

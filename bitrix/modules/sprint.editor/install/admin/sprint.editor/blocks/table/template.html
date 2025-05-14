@@ -1,0 +1,38 @@
+<div class="fake-button-pane"></div>
+
+<table>
+    {{~it.rows :cols}}
+    <tr>
+        {{~cols :col}}
+        <td {{?col.class}}class="{{=col.class}}"{{?}}
+            {{?col.colspan}}colspan="{{=col.colspan}}" {{?}}
+            {{?col.rowspan}}rowspan="{{=col.rowspan}}" {{?}}>
+            <div class="trumbowyg-editor-box">{{=col.text}}</div>
+        </td>
+        {{~}}
+    </tr>
+    {{~}}
+</table>
+
+<div class="sp-buttons" style="margin-top: 10px;">
+    <span class="sp-x-btn sp-add-row">добавить строку</span>
+    <span class="sp-x-btn sp-del-row">удалить строку</span>
+</div>
+
+<div class="sp-buttons sp-col-buttons" style="margin-top: 10px;">
+    <span class="sp-x-btn sp-add-col">добавить колонку</span>
+    <span class="sp-x-btn sp-del-col">удалить колонку</span>
+</div>
+
+<div class="sp-buttons sp-col-buttons" style="margin-top: 10px;">
+    <span class="sp-x-btn sp-add-cs">объединить с &rarr;</span>
+    <span class="sp-x-btn sp-del-cs">разъединить с &rarr;</span>
+    <span class="sp-x-btn sp-add-rs">объединить с &darr;</span>
+    <span class="sp-x-btn sp-del-rs">разъединить с &darr;</span>
+</div>
+
+<div class="sp-buttons sp-col-buttons" style="margin-top: 10px;">
+    <span class="sp-x-btn sp-sel-row">выбрать строку</span>
+    <span class="sp-x-btn sp-sel-up">строку вверх</span>
+    <span class="sp-x-btn sp-sel-dn">строку вниз</span>
+</div>

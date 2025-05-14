@@ -1,0 +1,16 @@
+{
+  "title": "Инфоблоки. Категории",
+  "sort": "700",
+  "templates": [
+    "select.html"
+  ],
+  "settings": {
+    "display_elements": {
+      "type": "select",
+      "default": "",
+      "value": {
+        "yes": "Выводить элементы"
+      }
+    }
+  }
+}

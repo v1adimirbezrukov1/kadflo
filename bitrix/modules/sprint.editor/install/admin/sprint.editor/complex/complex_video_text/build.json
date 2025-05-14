@@ -1,0 +1,17 @@
+{
+    "title": "Видео с текстом",
+    "sort": "110",
+    "layouts": [
+        {
+            "title": "",
+            "columns": [
+                {
+                    "blocks": [
+                        "video",
+                        "text"
+                    ]
+                }
+            ]
+        }
+    ]
+}

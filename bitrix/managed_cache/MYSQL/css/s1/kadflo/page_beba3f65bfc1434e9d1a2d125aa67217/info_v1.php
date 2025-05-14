@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/kadflo/components/bitrix/news/baza/bitrix/news.list/.default/style.css" => "1747143464150",]; ?>

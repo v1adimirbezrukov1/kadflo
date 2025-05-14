@@ -1,0 +1,59 @@
+.sp-block-accordion .sp-acc-tab {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.sp-block-accordion .sp-acc-tab.sp-collapsed .sp-acc-blocks,
+.sp-block-accordion .sp-acc-tab.sp-collapsed .sp-acc-footer {
+    display: none;
+}
+
+.sp-block-accordion .sp-acc-tab.sp-collapsed .sp-acc-collapse {
+    background: #e0e0e0;
+}
+
+
+.sp-block-accordion .sp-acc-header {
+    position: relative;
+}
+
+.sp-block-accordion .sp-acc-footer,
+.sp-block-accordion .sp-acc-header {
+    padding: 10px 10px 0;
+    background: #eee;
+}
+
+
+.sp-block-accordion .sp-acc-header,
+.sp-block-accordion .sp-acc-footer {
+    font-size: 0;
+}
+
+.sp-block-accordion .sp-acc-footer span {
+    font-size: 13px;
+}
+
+.sp-block-accordion input.sp-acc-tab-value {
+    width: 60%;
+    float: right;
+}
+
+.sp-block-accordion .sp-x-box {
+    margin: 10px;
+}
+
+.sp-block-accordion .sp-acc-box-handle,
+.sp-block-accordion .sp-acc-tab-handle {
+    cursor: move;
+}
+
+
+.sp-block-accordion .sp-acc-box.ui-sortable-helper {
+    background: #e0e8ea;
+    padding: 10px 10px 20px;
+}
+
+.sp-block-accordion .sp-acc-tab.ui-sortable-helper {
+    background: #e0e8ea;
+    /*padding: 10px 10px 20px;*/
+}

@@ -1,0 +1,65 @@
+.sp-block-files .sp-item {
+    width: 95%;
+    height: 18px;
+    padding: 6px;
+    margin: 3px;
+    cursor: move;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.sp-block-files .sp-placeholder {
+    width: 95%;
+    height: 18px;
+    border: 2px dotted black;
+    padding: 6px;
+    margin: 0 0 5px 0;
+}
+
+.sp-block-files .sp-item-desc {
+    width: 300px
+}
+
+
+.sp-block-files .sp-x-active {
+    border: 2px solid #d00;
+}
+
+
+.sp-block-files .sp-result {
+    background: #eee;
+    min-height: 55px;
+    padding: 5px;
+}
+
+.sp-block-files .sp-source {
+    background: #FFEBC1;
+    padding: 10px;
+}
+
+.sp-block-files .sp-edit {
+    background: #ddd;
+    padding: 10px;
+    display: none;
+}
+
+.sp-block-files.sp-editable .sp-source {
+    display: none;
+}
+
+.sp-block-files.sp-editable .sp-edit {
+    display: block;
+}
+
+.sp-block-files .sp-download-url {
+    width: 50%
+}
+
+.sp-block-files .sp-field {
+    margin-bottom: 10px;
+}
+
+.sp-block-files .sp-item.ui-sortable-helper {
+    background: #ccc;
+}
