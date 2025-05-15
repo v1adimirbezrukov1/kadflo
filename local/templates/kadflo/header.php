@@ -62,7 +62,7 @@ $request = Application::getInstance()->getContext()->getRequest();
     <title><? $APPLICATION->ShowTitle() ?></title>
 </head>
 
-<body>
+<body 123>
     <div id="panel">
         <? $APPLICATION->ShowPanel(); ?>
     </div>

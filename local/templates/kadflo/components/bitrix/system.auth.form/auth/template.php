@@ -3,26 +3,6 @@
 CJSCore::Init();
 ?>
 
-
-<!-- <div class="auth">
-
-	<div class="container">
-		<div class="auth__inner">
-			<form action="#">
-				<div class="auth__title"> Авторизация</div>
-				<label class="field">
-					<input type="text" placeholder="E-mail">
-				</label>
-				<label class="field">
-					<input type="password" placeholder="Пароль">
-				</label>
-				<button type="submit" class="auth__btn btn btn-white">Войти</button>
-				<a href="#" class="auth__password">Забыли имя пользователя или пароль?</a>
-			</form>
-		</div>
-	</div>
-</div> -->
-
 <div class="bx-system-auth-form auth">
 	<div class="container">
 		<div class="auth__inner">
@@ -91,9 +71,9 @@ CJSCore::Init();
 					<? endif ?>
 					<input type="submit" class="auth__btn btn btn-white" name="Login" value="<?= GetMessage("AUTH_LOGIN_BUTTON") ?>" />
 					<? if ($arResult["NEW_USER_REGISTRATION"] == "Y"): ?>
-						<a href="<?= $arResult["AUTH_REGISTER_URL"] ?>" class="auth__password" rel="nofollow"><?= GetMessage("AUTH_REGISTER") ?></a>
+						<a href="#modal-auth" data-fancybox="" class="auth__password" rel="nofollow"><?= GetMessage("AUTH_REGISTER") ?></a>
 					<? endif ?>
-					<a href="<?= $arResult["AUTH_FORGOT_PASSWORD_URL"] ?>" class="auth__password" rel="nofollow"><?= GetMessage("AUTH_FORGOT_PASSWORD_2") ?></a>
+					<a href="#modal-auth" data-fancybox="" class="auth__password" rel="nofollow"><?= GetMessage("AUTH_FORGOT_PASSWORD_2") ?></a>
 
 					<? if ($arResult["AUTH_SERVICES"]): ?>
 						<tr>
@@ -206,4 +186,14 @@ CJSCore::Init();
 			<? endif ?>
 		</div>
 	</div>
+</div>
+
+<div id="modal-auth" style="display: none;" class="modal-auth">
+	<h3>Свяжитесь с нами любым удобным способом</h3>
+	<p>Телефон: 
+		<a href="tel:+74993900522">+7 (499) 390-05-22</a>
+	</p>
+	<p>Почта: 
+		<a href="mailto:info@cadflo.com">info@cadflo.com</a>
+	</p>
 </div>
