@@ -1,7 +1,0 @@
-.idea
-.settings
-.buildpath
-.project
-nbproject/
-
-install/admin/sprint.editor/packs/*.json

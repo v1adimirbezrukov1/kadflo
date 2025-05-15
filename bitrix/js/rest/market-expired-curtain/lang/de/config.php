@@ -1,3 +1,0 @@
-<?php
-$MESS["REST_SIDEPANEL_WRAPPER_MARKET_EXPIRED_NOTIFICATION_BUTTON_TEXT"] = "Mehr";
-$MESS["REST_SIDEPANEL_WRAPPER_MARKET_EXPIRED_NOTIFICATION_TEXT"] = "<b>Abonnieren Sie jetzt</b>, um Anwendungen weiterhin nutzen zu können.";
